@@ -17,6 +17,8 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀:
 
+// The nested function can access the variable internal because the nested function is able to reach out of its scope within the parent function, however myfunction is not able to reach into the nestedfunction scope for variables contained there. nestedFunction pulling internal from its outer scope would also be an example of closure.
+
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
 /* Use summation to do the following:
     1. Receive a number 
